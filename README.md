@@ -26,6 +26,15 @@ It lets you scan a range of ports on a target host and prints which ports are op
 ```bash
 python3 port_scanner.py
 
+## 📘 Example Output
+Enter host to scan (e.g. 127.0.0.1): 127.0.0.1
+Start port (e.g. 1): 1
+End port   (e.g. 1024): 100
+
+[+] Port 22 is OPEN
+[+] Port 80 is OPEN
+Scan complete.
+
 🔐 Ethical Use
 
 This project is for learning cybersecurity and networking.
